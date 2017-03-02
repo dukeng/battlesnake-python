@@ -36,7 +36,7 @@ def move():
 
     # TODO: Do things with data
     directions = ['up', 'down', 'left', 'right']
-
+    print "got here"
     return {
         'move': random.choice(directions),
         'taunt': 'battlesnake-python!'
